@@ -1,0 +1,183 @@
+{
+  "font_pairings": {
+    "modern_professional": {
+      "name": "Modern Professional",
+      "heading": {
+        "family": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "weight": 700,
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["corporate", "tech", "SaaS", "professional services"],
+      "mood": "clean, trustworthy, modern",
+      "letter_spacing": {
+        "heading": "-0.02em",
+        "body": "0em"
+      }
+    },
+    "classic_elegance": {
+      "name": "Classic Elegance",
+      "heading": {
+        "family": "Playfair Display, Georgia, 'Times New Roman', serif",
+        "weight": 700,
+        "fallback": "serif"
+      },
+      "body": {
+        "family": "Source Sans Pro, Arial, sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["luxury", "fashion", "beauty", "premium products"],
+      "mood": "sophisticated, timeless, elegant",
+      "letter_spacing": {
+        "heading": "-0.01em",
+        "body": "0em"
+      }
+    },
+    "bold_impact": {
+      "name": "Bold Impact",
+      "heading": {
+        "family": "Montserrat, Arial Black, sans-serif",
+        "weight": 800,
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "Montserrat, Arial, sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["sales", "promotions", "energetic brands"],
+      "mood": "strong, confident, attention-grabbing",
+      "letter_spacing": {
+        "heading": "-0.02em",
+        "body": "0em"
+      }
+    },
+    "friendly_approachable": {
+      "name": "Friendly Approachable",
+      "heading": {
+        "family": "Poppins, 'Trebuchet MS', sans-serif",
+        "weight": 600,
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "Poppins, 'Trebuchet MS', sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["lifestyle", "wellness", "consumer goods"],
+      "mood": "warm, inviting, accessible",
+      "letter_spacing": {
+        "heading": "0em",
+        "body": "0em"
+      }
+    },
+    "tech_modern": {
+      "name": "Tech Modern",
+      "heading": {
+        "family": "Space Grotesk, 'Courier New', monospace",
+        "weight": 700,
+        "fallback": "monospace"
+      },
+      "body": {
+        "family": "IBM Plex Sans, Arial, sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["startups", "apps", "innovation"],
+      "mood": "forward-thinking, digital, contemporary",
+      "letter_spacing": {
+        "heading": "-0.01em",
+        "body": "0em"
+      }
+    },
+    "editorial": {
+      "name": "Editorial",
+      "heading": {
+        "family": "Merriweather, Georgia, serif",
+        "weight": 700,
+        "fallback": "serif"
+      },
+      "body": {
+        "family": "Lato, Arial, sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["content", "publishing", "storytelling"],
+      "mood": "readable, authoritative, journalistic",
+      "letter_spacing": {
+        "heading": "0em",
+        "body": "0em"
+      }
+    },
+    "geometric_clean": {
+      "name": "Geometric Clean",
+      "heading": {
+        "family": "Raleway, 'Helvetica Neue', sans-serif",
+        "weight": 700,
+        "fallback": "sans-serif"
+      },
+      "body": {
+        "family": "Raleway, 'Helvetica Neue', sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["minimalist", "design-focused", "portfolios"],
+      "mood": "precise, balanced, modern",
+      "letter_spacing": {
+        "heading": "-0.01em",
+        "body": "0.01em"
+      }
+    },
+    "playful_creative": {
+      "name": "Playful Creative",
+      "heading": {
+        "family": "Fredoka One, 'Comic Sans MS', cursive",
+        "weight": 400,
+        "fallback": "cursive"
+      },
+      "body": {
+        "family": "Nunito, 'Trebuchet MS', sans-serif",
+        "weight": 400,
+        "fallback": "sans-serif"
+      },
+      "use_cases": ["kids", "fun products", "casual brands"],
+      "mood": "energetic, youthful, creative",
+      "letter_spacing": {
+        "heading": "0em",
+        "body": "0em"
+      }
+    }
+  },
+  "template_font_mapping": {
+    "product_hero": ["modern_professional", "classic_elegance"],
+    "multi_product_grid": ["bold_impact", "modern_professional"],
+    "text_heavy_promo": ["bold_impact"],
+    "lifestyle_story": ["friendly_approachable", "classic_elegance"],
+    "minimalist_luxury": ["classic_elegance", "geometric_clean"],
+    "event_announcement": ["tech_modern", "bold_impact"],
+    "split_feature": ["geometric_clean", "modern_professional"],
+    "magazine_layout": ["editorial"]
+  },
+  "typography_scale": {
+    "display": 64,
+    "h1": 51,
+    "h2": 41,
+    "h3": 33,
+    "h4": 26,
+    "h5": 21,
+    "body_large": 20,
+    "body": 16,
+    "body_small": 13,
+    "caption": 10
+  },
+  "line_heights": {
+    "heading": 1.2,
+    "body": 1.5,
+    "cta": 1.0
+  }
+}

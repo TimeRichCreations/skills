@@ -1,0 +1,179 @@
+{
+  "palettes": {
+    "ocean_breeze": {
+      "name": "Ocean Breeze",
+      "description": "Cool, professional, trustworthy",
+      "use_cases": ["corporate", "technology", "finance", "trust-building"],
+      "colors": {
+        "background": "#F0F8FF",
+        "primary": "#2E5266",
+        "secondary": "#6E8898",
+        "accent": "#D3AF37",
+        "text_dark": "#1A1A1A",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "sunset_vibes": {
+      "name": "Sunset Vibes",
+      "description": "Warm, energetic, exciting",
+      "use_cases": ["sales", "promotions", "food", "energetic brands"],
+      "colors": {
+        "background": "#FFF5EB",
+        "primary": "#FF6B35",
+        "secondary": "#F7931E",
+        "accent": "#C1292E",
+        "text_dark": "#2A2A2A",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "forest_fresh": {
+      "name": "Forest Fresh",
+      "description": "Natural, organic, calming",
+      "use_cases": ["wellness", "organic", "eco-friendly", "health"],
+      "colors": {
+        "background": "#F4F7F5",
+        "primary": "#2D6A4F",
+        "secondary": "#52B788",
+        "accent": "#95D5B2",
+        "text_dark": "#1B4332",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "midnight_luxury": {
+      "name": "Midnight Luxury",
+      "description": "Dark, premium, sophisticated",
+      "use_cases": ["luxury", "premium products", "high-end events"],
+      "colors": {
+        "background": "#1A1A1A",
+        "primary": "#FFFFFF",
+        "secondary": "#A0A0A0",
+        "accent": "#D4AF37",
+        "text_dark": "#FFFFFF",
+        "text_light": "#E5E5E5"
+      }
+    },
+    "berry_blast": {
+      "name": "Berry Blast",
+      "description": "Vibrant, playful, bold",
+      "use_cases": ["beauty", "fashion", "creative", "feminine"],
+      "colors": {
+        "background": "#FFF0F5",
+        "primary": "#C9184A",
+        "secondary": "#FF4D6D",
+        "accent": "#FFB3C1",
+        "text_dark": "#240115",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "monochrome_modern": {
+      "name": "Monochrome Modern",
+      "description": "Neutral, minimalist, clean",
+      "use_cases": ["minimalist", "architecture", "design portfolios"],
+      "colors": {
+        "background": "#FFFFFF",
+        "primary": "#000000",
+        "secondary": "#6C757D",
+        "accent": "#343A40",
+        "text_dark": "#212529",
+        "text_light": "#F8F9FA"
+      }
+    },
+    "lavender_dreams": {
+      "name": "Lavender Dreams",
+      "description": "Soft, calm, creative",
+      "use_cases": ["wellness", "spirituality", "creativity", "lifestyle"],
+      "colors": {
+        "background": "#FAF9FF",
+        "primary": "#7209B7",
+        "secondary": "#B5A1D6",
+        "accent": "#F72585",
+        "text_dark": "#3C096C",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "coral_reef": {
+      "name": "Coral Reef",
+      "description": "Tropical, fresh, adventurous",
+      "use_cases": ["travel", "lifestyle", "summer products", "fun"],
+      "colors": {
+        "background": "#FDFBF7",
+        "primary": "#FF6F61",
+        "secondary": "#00B4D8",
+        "accent": "#FFD23F",
+        "text_dark": "#2B2D42",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "earth_tones": {
+      "name": "Earth Tones",
+      "description": "Grounded, reliable, authentic",
+      "use_cases": ["artisan", "handmade", "rustic", "traditional"],
+      "colors": {
+        "background": "#FAF7F2",
+        "primary": "#8B4513",
+        "secondary": "#CD853F",
+        "accent": "#DEB887",
+        "text_dark": "#3E2723",
+        "text_light": "#FFFFFF"
+      }
+    },
+    "electric_neon": {
+      "name": "Electric Neon",
+      "description": "Bold, modern, edgy",
+      "use_cases": ["tech", "gaming", "nightlife", "modern brands"],
+      "colors": {
+        "background": "#0A0E27",
+        "primary": "#00F5FF",
+        "secondary": "#7B2CBF",
+        "accent": "#FF006E",
+        "text_dark": "#00F5FF",
+        "text_light": "#FFFFFF"
+      }
+    }
+  },
+  "keyword_mapping": {
+    "luxury": ["midnight_luxury"],
+    "premium": ["midnight_luxury"],
+    "elegant": ["midnight_luxury", "lavender_dreams"],
+    "sophisticated": ["monochrome_modern", "midnight_luxury"],
+    "sale": ["sunset_vibes", "berry_blast"],
+    "discount": ["sunset_vibes"],
+    "promo": ["berry_blast", "sunset_vibes"],
+    "deal": ["sunset_vibes"],
+    "natural": ["forest_fresh", "earth_tones"],
+    "organic": ["forest_fresh"],
+    "eco": ["forest_fresh"],
+    "green": ["forest_fresh"],
+    "modern": ["ocean_breeze", "monochrome_modern"],
+    "tech": ["electric_neon", "ocean_breeze"],
+    "digital": ["electric_neon"],
+    "innovation": ["ocean_breeze", "electric_neon"],
+    "calm": ["lavender_dreams", "ocean_breeze"],
+    "peaceful": ["ocean_breeze", "lavender_dreams"],
+    "wellness": ["lavender_dreams", "forest_fresh"],
+    "spa": ["lavender_dreams"],
+    "bold": ["electric_neon", "berry_blast"],
+    "energetic": ["coral_reef", "sunset_vibes"],
+    "vibrant": ["sunset_vibes", "berry_blast"],
+    "dynamic": ["berry_blast", "electric_neon"],
+    "professional": ["ocean_breeze", "monochrome_modern"],
+    "corporate": ["ocean_breeze"],
+    "business": ["monochrome_modern", "ocean_breeze"],
+    "fun": ["coral_reef", "berry_blast"],
+    "playful": ["berry_blast", "coral_reef"],
+    "creative": ["lavender_dreams", "berry_blast"],
+    "traditional": ["earth_tones"],
+    "rustic": ["earth_tones"],
+    "artisan": ["earth_tones"]
+  },
+  "template_defaults": {
+    "product_hero": "ocean_breeze",
+    "multi_product_grid": "monochrome_modern",
+    "text_heavy_promo": "sunset_vibes",
+    "lifestyle_story": "lavender_dreams",
+    "minimalist_luxury": "midnight_luxury",
+    "event_announcement": "ocean_breeze",
+    "split_feature": "monochrome_modern",
+    "magazine_layout": "monochrome_modern"
+  }
+}
